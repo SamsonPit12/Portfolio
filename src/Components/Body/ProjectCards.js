@@ -6,7 +6,7 @@ import {Card, Button, CardGroup, Container} from 'react-bootstrap';
 const ProjectCard = () =>{
     return(
 
-<Container>
+<Container id={styles.container}>
     <CardGroup>
         <Card>
             <Card.Img variant="top" src="https://www.irdes.fr/imgs2017/images/about-imgs.jpg" />
