@@ -1,6 +1,8 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
 // import logo from './../../logo.svg';
+import test1 from '../../fakeresume.pdf';
+
 
 
 class Header extends React.Component {
@@ -22,7 +24,7 @@ class Header extends React.Component {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/link">Link</Nav.Link>
                         <Nav.Link href="/link">Link</Nav.Link>
-                        <Nav.Link href="/link">Link</Nav.Link>
+                        <Nav.Link href="/link"><a download href={test1}>Download Resume </a></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
