@@ -17,9 +17,11 @@ const Styles = styled.div`
         display: block;
     }
 
-    .card-text{
-        color: red;
+    h3{
+        border-bottom: 6px solid red;
+        width: 20%;
     }
+
 `
 
 // const StyleButton = styled.button`

@@ -15,27 +15,25 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-
       <Container>
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/xbjyonzw"
-        method="POST"
-        className= {styles.form}
-      >
-        <label>Name: </label>
-        <input type="text" name='name' className={styles.messageInput} />
-        <label>Subject: </label>
-        <input type="text" name='subject' className={styles.messageInput} />
-        <label>Email: </label>
-        <input type="email" name="email" className={styles.messageInput} />
-        <label>Message: </label>
-        {/* <input type="text" name="message" /> */}
-      	<textarea className={styles.messageInput} name="message"></textarea>
+        <h3>Contact Me</h3>
+        <form
+          onSubmit={this.submitForm}
+          action="https://formspree.io/xbjyonzw"
+          method="POST"
+          className= {styles.form}
+        >
+          <label>Name: </label>
+          <input type="text" name='name' className={styles.messageInput} />
+          <label>Email: </label>
+          <input type="email" name="email" className={styles.messageInput} />
+          <label>Message: </label>
+          {/* <input type="text" name="message" /> */}
+          <textarea className={styles.messageInput} name="message"></textarea>
 
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+          {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </form>
       </Container>
     );
   }

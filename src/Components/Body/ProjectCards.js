@@ -11,6 +11,7 @@ const ProjectCard = () =>{
 
 <Styles>
 <Container>
+    <h3>Projects</h3>
     <CardDeck>
         <Row >
             <Col lg={4}>
@@ -45,7 +46,9 @@ const ProjectCard = () =>{
             </Col>
             <Col lg={4}>
                 <Card>
-                    <Card.Img variant="top" src="https://www.irdes.fr/imgs2017/images/about-imgs.jpg" />
+                    <a href='https://ericd12.github.io/'>
+                        <Card.Img variant="top" src="https://www.irdes.fr/imgs2017/images/about-imgs.jpg" />
+                    </a>
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>

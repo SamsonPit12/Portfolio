@@ -1,10 +1,11 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar/Navbar'
+import NavbarHeader from './Components/Navbar/Navbar'
 import "bootstrap/dist/css/bootstrap.min.css";
+import About from './Components/Body/About'
 import MyForm from './Components/Contactform/ContactForm';
 import ProjectCards from './Components/Body/ProjectCards';
+import { Container } from 'react-bootstrap';
 
 
 
@@ -13,13 +14,18 @@ function App() {
   return (
 
     <div className="App">
-      <Navbar /> 
+      <Container>
+      <NavbarHeader /> 
+      <br />
+      <About />
       <br />
       <ProjectCards />
       <br />
       <MyForm />
       <br />
+      </Container>
     </div>
+    
   );
 }
 

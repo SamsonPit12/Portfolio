@@ -1,17 +1,5 @@
 .App {
-  text-align: center;
   background-image: linear-gradient(#f7faff, #fcfcfc);
 }
 
 
-/* 
-html{
-  background-image: linear-gradient(red, yellow);
-
-
-} */
-
-.btn-flat {
-  background-color: purple;
-  color: white;
-}
