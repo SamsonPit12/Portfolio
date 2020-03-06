@@ -2,6 +2,7 @@ import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
 import test1 from '../../fakeresume.pdf';
 import Styles from '../../Styles/NavbarStyle';
+import logo from './../../e-logo.png'
 
 
 
@@ -11,14 +12,14 @@ class NavbarHeader extends React.Component {
             <Styles>
                 <Navbar bg="dark" expand="lg" fixed='top'>
                     <Navbar.Brand href="#home">      
-                    {/* <img
+                    <img
                         src={logo}
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
                         alt="logo"
-                    />  */}
-                    Eric</Navbar.Brand>
+                    /> 
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
