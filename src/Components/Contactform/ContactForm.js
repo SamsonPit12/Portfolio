@@ -1,9 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import styles from '../../Styles/ContactForm.module.css';
+import Styles from '../../Styles/ContactStyle.js';
 
-
-export default class MyForm extends React.Component {
+export default class ContactForm extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -15,26 +14,27 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <Container>
-        <h3>Contact Me</h3>
-        <form
-          onSubmit={this.submitForm}
-          action="https://formspree.io/xbjyonzw"
-          method="POST"
-          className= {styles.form}
-        >
-          <label>Name: </label>
-          <input type="text" name='name' className={styles.messageInput} />
-          <label>Email: </label>
-          <input type="email" name="email" className={styles.messageInput} />
-          <label>Message: </label>
-          {/* <input type="text" name="message" /> */}
-          <textarea className={styles.messageInput} name="message"></textarea>
+      <Styles>
+        <Container>
+          <h3>Contact Me</h3>
+          <form
+            onSubmit={this.submitForm}
+            action="https://formspree.io/xbjyonzw"
+            method="POST"
+            className= 'form'
+          >
+            <label>Name: </label>
+            <input type="text" name='name' className='message-input' />
+            <label>Email: </label>
+            <input type="email" name="email" className='message-input' />
+            <label>Message: </label>
+            <textarea className='message-input' name="message"></textarea>
 
-          {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        </form>
-      </Container>
+            {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          </form>
+        </Container>
+      </Styles>
     );
   }
 

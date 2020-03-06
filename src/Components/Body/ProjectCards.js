@@ -1,6 +1,5 @@
 import React from 'react';
 import {Card, CardDeck, Container, Row, Col } from 'react-bootstrap';
-// import styled from 'styled-components';
 import Styles from '../../Styles/ProjectCardStyles.js';
 import test from '../../testpic.png'
 

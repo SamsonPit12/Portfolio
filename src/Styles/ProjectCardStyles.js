@@ -20,30 +20,10 @@ const Styles = styled.div`
     h3{
         border-bottom: 6px solid red;
         width: 20%;
+        padding-bottom: 2px;
     }
 
 `
-
-// const StyleButton = styled.button`
-//     color: green;
-// `
-
-
-
-
-// /* #cardDeck{
-//     color: green;
-// } */
-
-
-
-// .cardButton:hover { 
-//     background-color:rgba(0, 46, 94); 
-// }
-
-// .card-img, .card-img-bottom, .card-img-top {
-//         width: 20px;
-// }
 
 
 export default Styles

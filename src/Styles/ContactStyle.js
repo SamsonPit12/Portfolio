@@ -1,7 +1,25 @@
+import styled from 'styled-components';
 
-.form { max-width:420px; margin:50px auto; }
+const Styles = styled.div`
 
-.messageInput {
+.container{
+  margin-top: 5%;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+h3{
+  border-bottom: 6px solid red;
+  width: 20%;
+  padding-bottom: 2px;
+}
+
+label{
+  float: left;
+}
+
+
+.message-input {
   color:white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
@@ -18,14 +36,16 @@
   outline:0;
 }
 
-
-.messageInput:focus { border:2px solid #CC4949; }
+.message-input:focus { 
+  border:2px solid #CC4949; 
+}
 
 textarea {
   height: 150px;
   line-height: 150%;
   resize:vertical;
 }
+
 
 button {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -40,12 +60,12 @@ button {
   padding-bottom:5px;
   transition: all 0.3s;
   margin-top:-4px;
-  /* font-weight:400; */
 }
 
-button:hover { background:rgba(0, 46, 94) };
-
-label{
-    float: left;
+button:hover { 
+  background:rgba(0, 46, 94) 
 }
 
+`
+
+export default Styles

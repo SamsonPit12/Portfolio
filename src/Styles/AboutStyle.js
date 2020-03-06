@@ -11,6 +11,7 @@ p{
 h3{
     border-bottom: 6px solid red;
     width: 20%;
+    padding-bottom: 2px;
 }
 
 `
