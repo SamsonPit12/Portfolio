@@ -9,7 +9,7 @@ const Styles = styled.div`
 form { max-width:420px; margin:50px auto; }
 
 h3{
-  border-bottom: 6px solid red;
+  border-bottom: 6px solid rgba(0, 46, 94) ;
   width: 20%;
   padding-bottom: 2px;
 }
@@ -63,7 +63,7 @@ button {
 }
 
 button:hover { 
-  background:rgba(0, 46, 94) 
+  background: rgba(0, 46, 94); 
 }
 
 `

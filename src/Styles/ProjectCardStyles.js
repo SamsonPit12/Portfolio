@@ -18,7 +18,7 @@ const Styles = styled.div`
     }
 
     h3{
-        border-bottom: 6px solid red;
+        border-bottom: 6px solid rgba(0, 46, 94);
         width: 20%;
         padding-bottom: 2px;
     }
