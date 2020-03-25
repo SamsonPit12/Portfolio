@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Styles from '../../Styles/ContactStyle.js';
+import envelope from '../../Envelope.png'
 
 export default class ContactForm extends React.Component {
   constructor(props) {
@@ -30,7 +31,8 @@ export default class ContactForm extends React.Component {
             <label>Message: </label>
             <textarea className='message-input' name="message"></textarea>
 
-            {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+            {status === "SUCCESS" ? <p>Thanks!</p> : <button>
+              <img src={envelope} alt=''/>Send</button>}
             {status === "ERROR" && <p>Ooops! There was an error.</p>}
           </form>
         </Container>
