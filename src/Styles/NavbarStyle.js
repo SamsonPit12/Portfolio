@@ -11,9 +11,6 @@ const Styles = styled.div`
     color: white;
 }
 
-#resume{
-    color: green;
-}
 
 nav{    
     text-align: center;
@@ -34,8 +31,7 @@ nav{
     color: white;
     // padding: 10px;
 
-  }
-
+}
 `
 
 export default Styles

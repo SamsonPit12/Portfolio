@@ -3,13 +3,13 @@ import styled from 'styled-components';
 const Styles = styled.div`
 
 .container{
-  margin-top: 10%;
+  padding-top: 5%;
+  margin-bottom: 22%;
 }
 
 form { 
   max-width:420px; 
   margin:50px auto; 
-  margin-top: 8%;
 }
 
 h3{

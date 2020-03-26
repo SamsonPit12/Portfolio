@@ -4,7 +4,8 @@ import styled from 'styled-components';
 const Styles = styled.div`
  
     .container{
-        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-top: 15%;
     }
     .card{
         height: 400px;
@@ -30,7 +31,7 @@ const Styles = styled.div`
 `
 const ButtonCode = styled.button`
     display: inline-block;
-    width: 12vh;
+    width: 8vh;
     color: white;
     border-radius: 5px;
     padding: 0.3rem 5px;
@@ -51,7 +52,7 @@ const ButtonCode = styled.button`
 
 const ButtonApp = styled.button`
 display: inline-block;
-width: 12vh;
+width: 8vh;
     color: white;
     border-radius: 5px;
     padding: 0.3rem 0px;
