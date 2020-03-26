@@ -1,8 +1,8 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
-import test1 from '../../fakeresume.pdf';
 import Styles from '../../Styles/NavbarStyle';
-import logo from './../../e-logo.png'
+import logo from './../../e-logo.png';
+import {Link, animateScroll as scroll} from  'react-scroll';
 
 
 
@@ -11,7 +11,9 @@ class NavbarHeader extends React.Component {
         return(
             <Styles>
                 <Navbar bg="dark" expand="lg" fixed='top'>
-                    <Navbar.Brand href="#home">      
+                    <Navbar.Brand href="#home" onClick={() =>
+                        scroll.scrollToTop()
+                    }>      
                     <img
                         src={logo}
                         width="30"
@@ -23,10 +25,9 @@ class NavbarHeader extends React.Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
-                            <Nav.Link href="/">About Me</Nav.Link>
-                            <Nav.Link href="/link">Projects</Nav.Link>
-                            <Nav.Link href="/link">Contact Me</Nav.Link>
-                            <Nav.Link download href={test1}>Download Resume</Nav.Link>
+                            <Link className='nav-link' to="about" smooth={true} duration={500}>About Me</Link>
+                            <Link className='nav-link' to="projects" smooth={true} duration={500}>Projects</Link>
+                            <Link className='nav-link' to="contact" smooth={true} duration={500}>Contact Me</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

@@ -16,7 +16,7 @@ export default class ContactForm extends React.Component {
     const { status } = this.state;
     return (
       <Styles>
-        <Container>
+        <Container id="contact">
           <h3>Contact Me</h3>
           <form
             onSubmit={this.submitForm}

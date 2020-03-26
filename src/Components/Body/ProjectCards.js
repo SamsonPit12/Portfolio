@@ -6,18 +6,30 @@ import patatap from '../../patatap.png'
 import spotify from '../../spotify-api.png'
 
 
-
 const ProjectCard = () =>{
     return(
 
 <Styles>
-<Container>
+<Container id="projects">
     <h3>Projects</h3>
     <CardDeck>
         <Row >
             <Col lg={4} md={6}>
-                <Card >            
-                    <Card.Img variant="top" src={test1} />
+                <Card>
+                    <Card.Img variant="top" src={spotify} />
+                    <Card.Body>
+                        <Card.Title>Spotify API App</Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.he card's content.
+                        </Card.Text>
+                        <ButtonCode>Code</ButtonCode>
+                    </Card.Body>                                
+                </Card>
+            </Col>
+            <Col lg={4} md={6}>
+                <Card>
+                    <Card.Img variant="top" src={patatap} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -30,21 +42,8 @@ const ProjectCard = () =>{
                 </Card>
             </Col>
             <Col lg={4} md={6}>
-                <Card>
-                    <Card.Img variant="top" src={spotify} />
-                    <Card.Body>
-                        <Card.Title>Spotify Api App</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.he card's content.
-                        </Card.Text>
-                        <ButtonCode>Code</ButtonCode>
-                    </Card.Body>                                
-                </Card>
-            </Col>
-            <Col lg={4} md={6}>
-                <Card>
-                    <Card.Img variant="top" src={patatap} />
+                <Card >            
+                    <Card.Img variant="top" src={test1} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
