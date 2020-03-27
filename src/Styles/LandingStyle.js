@@ -26,7 +26,12 @@ const Styles = styled.div`
         border-bottom: 6px solid #002e5e;
         border-radius: 6px;
         width: 45%;
-        margin: 3vh auto;      
+        margin: 3vh auto;
+        
+        @media (max-width: 991px) {
+            font-size: 30px;
+        }
+            
     }
 
     span{

@@ -12,7 +12,15 @@ const Sidebar = styled.div`
     position: fixed;
     height: 100vh;
     border-right: 1px solid gray;
+
+    @media (max-width: 991px) {
+        height: 1000vh;
+
+    
+    }
 `
+
+
 
 const LogoImg = styled.img`
     height: 17px;

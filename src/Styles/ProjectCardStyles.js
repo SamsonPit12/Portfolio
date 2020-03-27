@@ -9,10 +9,11 @@ const Styles = styled.div`
     }
     .card{
         height: 100%;
+        
      }
 
      .card-body{
-         border-bottom: 0;
+         border-bottom: 0;       
      }
 
 
@@ -20,6 +21,8 @@ const Styles = styled.div`
         height:20vh;
         display: block;
         max-height: 25vh;
+        
+        
     }
 
     h3{
@@ -31,10 +34,17 @@ const Styles = styled.div`
 
     .card-deck{
         margin-top: 4%;
+        
     }
 
     a:hover{
         text-decoration: none;
+    }
+
+    div.col-lg-4.col-md-6 {
+        @media (max-width: 991px) {
+            margin-bottom: 5vh;
+        }
     }
 
 `
