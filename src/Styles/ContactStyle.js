@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Styles = styled.div`
 
 .container{
-  padding-top: 5%;
+  padding-top: 10vh;
   margin-bottom: 22%;
 }
 
@@ -13,7 +13,8 @@ form {
 }
 
 h3{
-  border-bottom: 6px solid rgba(0, 46, 94) ;
+  border-bottom: 6px solid rgba(0, 46, 94);
+  border-radius: 6px;
   width: 20%;
   padding-bottom: 2px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Styles from '../../Styles/ContactStyle.js';
-import envelope from '../../Envelope.png'
+import Styles from '../Styles/ContactStyle.js';
+import envelope from '../Images/Envelope.png'
 
 export default class ContactForm extends React.Component {
   constructor(props) {

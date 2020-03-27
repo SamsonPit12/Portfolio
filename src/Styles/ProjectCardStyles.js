@@ -4,22 +4,27 @@ import styled from 'styled-components';
 const Styles = styled.div`
  
     .container{
-        margin-bottom: 10%;
-        padding-top: 15%;
+        margin-bottom: 10vh;
+        padding-top: 10vh;
     }
     .card{
-        height: 400px;
-        margin-bottom: 10px;
-    }
-    
+        height: 100%;
+     }
+
+     .card-body{
+         border-bottom: 0;
+     }
+
+
     img{
-        max-width: 100%;
+        height:20vh;
         display: block;
-        max-height: 21vh;
+        max-height: 25vh;
     }
 
     h3{
         border-bottom: 6px solid rgba(0, 46, 94);
+        border-radius: 6px;
         width: 20%;
         padding-bottom: 2px;
     }
@@ -28,21 +33,26 @@ const Styles = styled.div`
         margin-top: 4%;
     }
 
+    a:hover{
+        text-decoration: none;
+    }
+
 `
 const ButtonCode = styled.button`
-    display: inline-block;
-    width: 8vh;
+    display: flex;
+    width: 100%;
     color: white;
     border-radius: 5px;
     padding: 0.3rem 5px;
-    margin: 0.5rem .5rem;
-    float: left;
-
-
-    background-color: #4287f5;
-    border: .5px solid #9ec1f7;
+    margin: 0.5rem auto;
+    background-color: #002e5e;
+    border: 1px solid #9ec1f7;
     transition: 0.2s all ease-out;
     font-weight: 500;
+    justify-content: space-evenly; 
+    margin-top: 2vh;
+
+    
 
     &:hover {
         background-color: #9ec1f7;
@@ -51,24 +61,38 @@ const ButtonCode = styled.button`
 `
 
 const ButtonApp = styled.button`
-display: inline-block;
-width: 8vh;
+    display: flex;
+    width: 100%;
     color: white;
     border-radius: 5px;
-    padding: 0.3rem 0px;
-    margin: 0.5rem .5rem;
-    background-color: #ed952f;
-    border: .5px solid #ed952f;
+    padding: 0.3rem 5px;
+    margin: 0.5rem auto;
+    margin-top: 0vh;
+    background-color: #4980ba;
+    border: .5px solid #9ec1f7;
     transition: 0.2s all ease-out;
     font-weight: 500;
-    float: left;
+    justify-content: space-evenly;
+    margin-top: 5vh;
 
     &:hover {
-        background-color: #f0b673;
+        background-color: #9ec1f7;
         color: black;
+        border: .5px solid #9ec1f7;
+
     }
 
 `
 
+const TechInfo = styled.div`
+    font-weight: 500;
+    margin-top: 2vh;
 
-export {Styles, ButtonCode, ButtonApp}
+
+    
+`
+
+
+
+
+export {Styles, ButtonCode, ButtonApp, TechInfo}

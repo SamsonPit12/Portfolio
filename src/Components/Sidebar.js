@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Sidebar, LogoImg, TitleTd, Techh2} from '../../Styles/SidebarStyle.js';
+import {Sidebar, LogoImg, TitleTd, Techh2} from '../Styles/SidebarStyle.js';
 import TechData from './TechData.js';
 
 
@@ -26,7 +26,7 @@ class SideContainer extends Component{
         return(
             // <Styles>
                 <Sidebar>
-                    <Techh2>Tech Used</Techh2>
+                    <Techh2>Tech Skills</Techh2>
                     <div>
                         <table id='tech'>
                             <tbody>

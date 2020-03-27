@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Styles = styled.div`
 
     .container{
-        margin-top: 10vh;
+        margin-top: 15vh;
         text-align: center;
 
     }
@@ -13,7 +13,7 @@ const Styles = styled.div`
         padding: 0 1vh;
         font-weight:500;
         font-size: 1.25rem;
-        margin: 0 auto 2vh; 
+        margin: 2vh auto 0; 
         color: black;
     }
 
@@ -24,11 +24,10 @@ const Styles = styled.div`
     h1{
         font-size: 5rem;
         border-bottom: 6px solid #002e5e;
+        border-radius: 6px;
         width: 45%;
-        margin: 4vh auto;      
+        margin: 3vh auto;      
     }
-
-
 
     span{
         color: #002e5e;

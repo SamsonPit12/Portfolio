@@ -27,7 +27,8 @@ nav{
 }
 
 .nav-link:hover {
-    background-color: #bbdafa;
+    background-color: #9ec1f7;
+    border-radius: 3px;
     color: white;
     // padding: 10px;
 

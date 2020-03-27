@@ -3,12 +3,12 @@ import './Styles/App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from 'react-bootstrap';
 
-import NavbarHeader from './Components/Navbar/Navbar';
-import Landing from './Components/Body/Landing';
-import About from './Components/Body/About';
-import ProjectCards from './Components/Body/ProjectCards';
-import ContactForm from './Components/Body/ContactForm';
-import SideContainer from './Components/Body/Sidebar';
+import NavbarHeader from './Components/Navbar';
+import Landing from './Components/Landing';
+import About from './Components/About';
+import ProjectCards from './Components/ProjectCards';
+import ContactForm from './Components/ContactForm';
+import SideContainer from './Components/Sidebar';
 
 
 

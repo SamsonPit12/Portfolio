@@ -1,7 +1,7 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
-import Styles from '../../Styles/NavbarStyle';
-import logo from './../../e-logo.png';
+import Styles from '../Styles/NavbarStyle';
+import logo from '../Images/e-logo.png';
 import {Link, animateScroll as scroll} from  'react-scroll';
 
 

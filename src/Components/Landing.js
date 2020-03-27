@@ -1,10 +1,10 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
-import {Styles, LogosLinks} from '../../Styles/LandingStyle.js';
-import linkedin from '../../linkedin.svg';
-import github from '../../github.svg';
-import resume from '../../resume-icon.png';
-import test1 from '../../fakeresume.pdf';
+import {Styles, LogosLinks} from '../Styles/LandingStyle.js';
+import linkedin from '../Images/linkedin.svg';
+import github from '../Images/github.svg';
+import resumeicon from '../Images/resume-icon.png';
+import resumepdf from '../Eric Dressler Resume 2020.pdf';
 
 const LinkIn = 'https://www.linkedin.com/in/eric-dressler-38267054/';
 const GitHub = 'https://github.com/ericd12';
@@ -23,8 +23,8 @@ const Landing = () =>{
                     <a href={GitHub} target ="_blank" rel='noopener noreferrer'>
                         <LogosLinks src={github} alt='github logo' />  Github
                     </a>
-                    <a download href={test1}>
-                        <LogosLinks className='logo' src={resume} alt='github logo' />  Download Resume
+                    <a download href={resumepdf}>
+                        <LogosLinks class='logo' src={resumeicon} alt='resume logo' />  Download Resume
                     </a> 
                 </div>                 
             </Container>
