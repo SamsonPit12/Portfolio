@@ -4,7 +4,7 @@ import {Styles, LogosLinks} from '../Styles/LandingStyle.js';
 import linkedin from '../Images/linkedin.svg';
 import github from '../Images/github.svg';
 import resumeicon from '../Images/resume-icon.png';
-import resumepdf from '../Eric Dressler Resume 2020.pdf';
+import resumepdf from '../Assets/Eric Dressler Resume 2020.pdf';
 
 const LinkIn = 'https://www.linkedin.com/in/eric-dressler-38267054/';
 const GitHub = 'https://github.com/ericd12';
