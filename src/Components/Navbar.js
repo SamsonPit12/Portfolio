@@ -10,7 +10,7 @@ class NavbarHeader extends React.Component {
     render(){
         return(
             <Styles>
-                <Navbar bg="dark" expand="lg" fixed='top'>
+                <Navbar bg="light" expand="lg" fixed='top'>
                     <Navbar.Brand href="#home" onClick={() =>
                         scroll.scrollToTop()
                     }>      

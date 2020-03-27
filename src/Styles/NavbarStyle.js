@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Styles = styled.div`
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    // color: #002e5e;
 }
 
 .navbar-light .navbar-brand {
@@ -24,12 +24,12 @@ nav{
     text-decoration: none;
     padding: 10px 10px;
     margin: 0px 10px;
+    color: #002e5e;
 }
 
 .nav-link:hover {
-    background-color: #9ec1f7;
+    background-color: #a9b7cc;
     border-radius: 3px;
-    color: white;
     // padding: 10px;
 
 }

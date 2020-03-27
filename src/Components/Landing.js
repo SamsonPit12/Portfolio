@@ -24,7 +24,7 @@ const Landing = () =>{
                         <LogosLinks src={github} alt='github logo' />  Github
                     </a>
                     <a download href={resumepdf}>
-                        <LogosLinks class='logo' src={resumeicon} alt='resume logo' />  Download Resume
+                        <LogosLinks src={resumeicon} alt='resume logo' />  Download Resume
                     </a> 
                 </div>                 
             </Container>
