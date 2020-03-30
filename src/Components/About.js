@@ -10,8 +10,8 @@ const About = () =>{
             <Container id='about'>
                     <h3>About Me</h3>
                     <p>
-                        Hi, I'm Eric. I'm a self-taught web developer based in theWashington D.C. metro. My objective is simply to become the best developer 
-                        that I can be and to contribute to the tech industry all that I can. Excited to beat the deployment phase of my new career as a developer, 
+                        Hi, I'm Eric. I'm a self-taught web developer based in the Washington D.C. metro. My objective is simply to become the best developer 
+                        that I can be and to contribute to the tech industry all that I can. Excited to be at the deployment phase of my new career as a developer, 
                         I enjoy being able to be challenged daily in which this path can provide. My education includes a B.B.A. in Management and an AWS Cloud 
                         Practitioner cert, which I look to progress on the AWS developer cert path.                  
                     </p>

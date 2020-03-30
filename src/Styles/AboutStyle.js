@@ -24,6 +24,7 @@ const Container = styled.div`
 
     @media (max-width: 768px) {
         padding-top: 6vh;
+        padding-right: 7px;
     }
 
     @media (min-width: 992px) {

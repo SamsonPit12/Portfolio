@@ -14,7 +14,8 @@ const Landing = () =>{
         <Styles>
             <Container>
                 <h1>Eric <span>Dressler</span></h1>
-                <p>edressler6@gmail.com | 540-797-2291</p>
+                <p>edressler6@gmail.com </p>
+                <p>540-797-2291</p>
                 <div>
                     <a href={LinkIn} target ="_blank" rel='noopener noreferrer'>
                         <LogosLinks src={linkedin} alt='linkedin logo' />  Linkedin
