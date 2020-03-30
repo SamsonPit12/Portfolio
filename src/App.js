@@ -37,11 +37,17 @@ const Container = styled.div`
   margin-right: auto;
   padding-top: 10vh;
 
-  @media (min-width: 350px) {
+  
+  @media (max-width: 499px) {
+    width: 290px;
+    margin-left: 13vh;
+    padding-top: 6vh;
+  }
+
+  @media (min-width: 500px) {
     width: 100vh;
     margin-left: 15vh;
     padding-top: 6vh;
-
   }
 
   @media (min-width: 992px) {

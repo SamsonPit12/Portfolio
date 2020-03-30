@@ -21,9 +21,9 @@ const Styles = styled.div`
         width: 50vh;
         margin: 3vh auto;
         
-        @media (max-width: 991px) {
+        @media (max-width: 499px) {
             font-size: 3rem;
-            width: 40vh;
+            width: 25vh;
         }
     }
 
@@ -44,9 +44,6 @@ const Container = styled.div`
     margin-top: 15vh;
     text-align: center;
 
-    @media (min-width: 768px) {
-        width: 750px;
-    }
 
     @media (min-width: 992px) {
         width: 970px;
