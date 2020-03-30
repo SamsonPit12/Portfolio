@@ -9,13 +9,9 @@ const Styles = styled.div`
     h3{
         border-bottom: 6px solid #002e5e;
         border-radius: 6px;
-        width: 20%;
+        width: 25vh;
         padding-bottom: 2px;
         margin-bottom: 4%;
-
-        @media (max-width: 768px) {
-            width: 80%;
-        }
     }  
 `
 
@@ -26,8 +22,8 @@ const Container = styled.div`
     margin-left: auto;
     padding-top: 10vh;
 
-    @media (min-width: 768px) {
-        width: 750px;
+    @media (max-width: 768px) {
+        padding-top: 6vh;
     }
 
     @media (min-width: 992px) {

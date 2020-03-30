@@ -15,15 +15,15 @@ const Styles = styled.div`
     }
 
     h1{
-        font-size: 5rem;
+        font-size: 4rem;
         border-bottom: 6px solid #002e5e;
         border-radius: 6px;
-        width: 45%;
+        width: 50vh;
         margin: 3vh auto;
         
         @media (max-width: 991px) {
             font-size: 3rem;
-            width: 80%;
+            width: 40vh;
         }
     }
 

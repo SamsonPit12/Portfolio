@@ -9,12 +9,8 @@ const Styles = styled.div`
   h3{
     border-bottom: 6px solid rgba(0, 46, 94);
     border-radius: 6px;
-    width: 20%;
+    width: 25vh;
     padding-bottom: 2px;
-
-    @media (max-width: 768px) {
-      width: 80%;
-    }
   }
 
   label{
@@ -85,10 +81,10 @@ const Container = styled.div`
   margin-right: auto;
   margin-left: auto;
   padding-top: 10vh;
-  margin-bottom: 22%;
+  margin-bottom: 30vh;
 
-  @media (min-width: 768px) {
-    width: 750px;
+  @media (max-width: 768px) {
+    padding-top: 6vh;
   }
 
   @media (min-width: 992px) {
