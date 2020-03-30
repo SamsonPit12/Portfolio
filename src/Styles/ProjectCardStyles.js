@@ -2,27 +2,18 @@ import styled from 'styled-components';
 
 
 const Styles = styled.div`
- 
-    .container{
-        margin-bottom: 10vh;
-        padding-top: 10vh;
-    }
     .card{
-        height: 100%;
-        
+        height: 100%;        
      }
 
      .card-body{
          border-bottom: 0;       
      }
 
-
     img{
         height:20vh;
         display: block;
-        max-height: 25vh;
-        
-        
+        max-height: 25vh;    
     }
 
     h3{
@@ -30,11 +21,14 @@ const Styles = styled.div`
         border-radius: 6px;
         width: 20%;
         padding-bottom: 2px;
+
+        @media (max-width: 768px) {
+            width: 80%;
+        }
     }
 
     .card-deck{
-        margin-top: 4%;
-        
+        margin-top: 4%;        
     }
 
     a:hover{
@@ -46,7 +40,6 @@ const Styles = styled.div`
             margin-bottom: 5vh;
         }
     }
-
 `
 const ButtonCode = styled.button`
     display: flex;
@@ -60,9 +53,7 @@ const ButtonCode = styled.button`
     transition: 0.2s all ease-out;
     font-weight: 500;
     justify-content: space-evenly; 
-    margin-top: 2vh;
-
-    
+    margin-top: 2vh; 
 
     &:hover {
         background-color: #9ec1f7;
@@ -89,20 +80,34 @@ const ButtonApp = styled.button`
         background-color: #9ec1f7;
         color: black;
         border: .5px solid #9ec1f7;
-
     }
-
 `
 
 const TechInfo = styled.div`
     font-weight: 500;
-    margin-top: 2vh;
+    margin-top: 2vh;    
+`
 
+const Container = styled.div`
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10vh;
+    padding-top: 10vh;
 
-    
+    @media (min-width: 768px) {
+        width: 750px;
+    }
+
+    @media (min-width: 992px) {
+        width: 970px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 1170px;
+    }
 `
 
 
-
-
-export {Styles, ButtonCode, ButtonApp, TechInfo}
+export {Styles, ButtonCode, ButtonApp, TechInfo, Container}

@@ -2,10 +2,6 @@ import styled from 'styled-components';
 
 
 const Styles = styled.div`
-    .container{
-        padding-top: 10vh;
-    }
-
     p{
         text-align:left;
     }
@@ -16,9 +12,32 @@ const Styles = styled.div`
         width: 20%;
         padding-bottom: 2px;
         margin-bottom: 4%;
+
+        @media (max-width: 768px) {
+            width: 80%;
+        }
+    }  
+`
+
+const Container = styled.div`
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10vh;
+
+    @media (min-width: 768px) {
+        width: 750px;
     }
 
+    @media (min-width: 992px) {
+        width: 970px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 1170px;
+    }
 `
 
 
-export default Styles
+export {Styles, Container}

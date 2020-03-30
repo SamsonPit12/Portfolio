@@ -1,6 +1,6 @@
 import React from 'react';
-import {Card, CardDeck, Container, Row, Col } from 'react-bootstrap';
-import {Styles, ButtonCode, ButtonApp, TechInfo } from '../Styles/ProjectCardStyles.js';
+import {Card, CardDeck, Row, Col } from 'react-bootstrap';
+import {Styles, ButtonCode, ButtonApp, TechInfo, Container } from '../Styles/ProjectCardStyles.js';
 import dnd from '../Images/DnD.PNG'
 import patatap from '../Images/patatap.png'
 import spotify from '../Images/spotify-api.png'

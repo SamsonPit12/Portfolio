@@ -1,6 +1,5 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
-import {Styles, LogosLinks} from '../Styles/LandingStyle.js';
+import {Styles, LogosLinks, Container} from '../Styles/LandingStyle.js';
 import linkedin from '../Images/linkedin.svg';
 import github from '../Images/github.svg';
 import resumeicon from '../Images/resume-icon.png';

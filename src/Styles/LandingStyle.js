@@ -1,13 +1,6 @@
 import styled from 'styled-components';
 
 const Styles = styled.div`
-
-    .container{
-        margin-top: 15vh;
-        text-align: center;
-
-    }
-
     a, p {
         display: inline-block;
         padding: 0 1vh;
@@ -29,9 +22,9 @@ const Styles = styled.div`
         margin: 3vh auto;
         
         @media (max-width: 991px) {
-            font-size: 30px;
+            font-size: 3rem;
+            width: 80%;
         }
-            
     }
 
     span{
@@ -43,4 +36,25 @@ const LogosLinks = styled.img`
     width: 3vh;
 `
 
-export {Styles, LogosLinks}
+const Container = styled.div`
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15vh;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        width: 750px;
+    }
+
+    @media (min-width: 992px) {
+        width: 970px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 1170px;
+    }
+`
+
+export {Styles, LogosLinks, Container}

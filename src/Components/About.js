@@ -1,6 +1,6 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
-import Styles from '../Styles/AboutStyle.js';
+// import {Container} from 'react-bootstrap';
+import {Styles, Container } from '../Styles/AboutStyle.js';
 
 
 

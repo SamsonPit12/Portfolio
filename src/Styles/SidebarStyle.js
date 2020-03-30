@@ -15,16 +15,16 @@ const Sidebar = styled.div`
 
     @media (max-width: 991px) {
         height: 1000vh;
-
-    
+        width: 15vh;
+        font-size: .8rem;
     }
+
 `
-
-
 
 const LogoImg = styled.img`
     height: 17px;
     margin-right: 5px;
+    margin-left: 1vh;
 `
 const TitleTd = styled.td`
     padding-top: 4px;
@@ -38,6 +38,12 @@ const Techh2 = styled.h2`
     padding-bottom: 2px;
     margin-bottom: 4%;
     width: 85%;
+
+    @media (max-width: 991px) {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
 `
 
 export {Sidebar, LogoImg, TitleTd, Techh2}
