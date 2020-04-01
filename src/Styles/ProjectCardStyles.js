@@ -3,17 +3,23 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
     .card{
-        height: 100%;        
+        height: 100%;
      }
 
      .card-body{
-         border-bottom: 0;       
+         border-bottom: 0; 
+         display: flex;
+         flex-wrap: wrap; 
+         justify-content: center;       
      }
 
     img{
-        height:20vh;
+        height:30vh;
         display: block;
-        max-height: 25vh;    
+        
+        @media (max-width: 500px) {
+            height:20vh;
+        }
     }
 
     h3{
@@ -31,24 +37,19 @@ const Styles = styled.div`
         text-decoration: none;
     }
 
-    div.col-lg-4.col-md-6 {
-        @media (max-width: 991px) {
-            margin-bottom: 5vh;
-        }
+    div.col-md-6 {
+        margin-bottom: 5vh;
     }
 `
 const ButtonCode = styled.button`
-    display: flex;
-    width: 100%;
     color: white;
     border-radius: 5px;
-    padding: 0.3rem 5px;
+    padding: 0.3rem 3rem;
     margin: 0.5rem auto;
     background-color: #002e5e;
     border: 1px solid #9ec1f7;
     transition: 0.2s all ease-out;
     font-weight: 500;
-    justify-content: space-evenly; 
     margin-top: 2vh; 
 
     &:hover {
@@ -58,19 +59,16 @@ const ButtonCode = styled.button`
 `
 
 const ButtonApp = styled.button`
-    display: flex;
-    width: 100%;
     color: white;
     border-radius: 5px;
-    padding: 0.3rem 5px;
+    padding: 0.3rem 3rem;
     margin: 0.5rem auto;
     margin-top: 0vh;
     background-color: #4980ba;
     border: .5px solid #9ec1f7;
     transition: 0.2s all ease-out;
     font-weight: 500;
-    justify-content: space-evenly;
-    margin-top: 5vh;
+    margin-top: 2vh;
 
     &:hover {
         background-color: #9ec1f7;
@@ -81,7 +79,9 @@ const ButtonApp = styled.button`
 
 const TechInfo = styled.div`
     font-weight: 500;
-    margin-top: 2vh;    
+    margin-top: 2vh;   
+    width: 100%; 
+    text-align: center;
 `
 
 const Container = styled.div`

@@ -25,6 +25,7 @@ const LogoImg = styled.img`
     height: 17px;
     margin-right: 5px;
     margin-left: 1vh;
+    color: black;
 `
 const TitleTd = styled.td`
     padding-top: 4px;

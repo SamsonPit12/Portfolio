@@ -13,6 +13,7 @@ import npm from '../Images/SideLogos/npm.svg'
 import postman from '../Images/SideLogos/postman.svg'
 import reactjs from '../Images/SideLogos/react.svg'
 import stycomp from '../Images/SideLogos/styled-components.svg'
+import semantic from '../Images/SideLogos/semantic-ui.svg'
 
 
 const TechData = {
@@ -31,6 +32,7 @@ const TechData = {
         {logo: npm, title: 'npm'},
         {logo: postman, title: 'Postman'},
         {logo: reactjs, title: 'React'},
+        {logo: semantic, title: 'Semantic UI'},
         {logo: stycomp, title: 'styled-components'}
     ]
 }

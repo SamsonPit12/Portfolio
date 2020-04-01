@@ -4,6 +4,7 @@ import {Styles, ButtonCode, ButtonApp, TechInfo, Container } from '../Styles/Pro
 import dnd from '../Images/DnD.PNG'
 import patatap from '../Images/patatap.png'
 import spotify from '../Images/spotify-api.png'
+import blog from '../Images/blog.png'
 
 
 const ProjectCard = () =>{
@@ -14,7 +15,7 @@ const ProjectCard = () =>{
         <h3>Side Projects</h3>
         <CardDeck>
             <Row >
-                <Col lg={4} md={6}>
+                <Col md={6}>
                     <Card>
                         <Card.Img variant="top" src={spotify} />
                         <Card.Body>
@@ -30,27 +31,7 @@ const ProjectCard = () =>{
                         </Card.Body>                                
                     </Card>
                 </Col>
-                <Col lg={4} md={6}>
-                    <Card>
-                        <Card.Img variant="top" src={patatap} />
-                        <Card.Body>
-                            <Card.Title>Patatap App</Card.Title>
-                            <Card.Text>
-                                Animation and sound kit that with the touch of a finger creates melodies charged with moving shapes.
-                            </Card.Text>
-                            <TechInfo>HTML | CSS | JavaScript | Paper.js | Howler.js</TechInfo>
-                            <a target ="_blank" rel='noopener noreferrer'href='https://ericd12.github.io/Patatap-App/'>
-                                <ButtonApp>App</ButtonApp>
-                            </a>
-                            <a target ="_blank" rel='noopener noreferrer'href='https://github.com/ericd12/Patatap-App'>
-                                <ButtonCode>Code</ButtonCode>
-                            </a>
-
-                    
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col lg={4} md={6}>
+                <Col md={6}>
                     <Card >            
                         <Card.Img variant="top" src={dnd} />
                         <Card.Body>
@@ -59,30 +40,55 @@ const ProjectCard = () =>{
                                 Drag and Drop component using React-Beaufitful-DnD for drag/drop functionality that was implented into a 
                                 larger project. Data is pulled from the DB to create a larger list in another DB.
                             </Card.Text>
-                            <TechInfo>JavaScript | React | React-Beautiful-DnD | Express | Axios | Node.js </TechInfo>                        
+                            <TechInfo>
+                                JavaScript | React | React-Beautiful-DnD | Express | Axios | Node.js                         
+                            </TechInfo>                        
                             <a target ="_blank" rel='noopener noreferrer'href='https://github.com/ericd12/task-app'>
                                 <ButtonCode>Code</ButtonCode>
                             </a>                    </Card.Body>
                     </Card>
                 </Col>
             </Row>
-            {/* <Row >
-                <Col lg={4} md={6}>
-                    <Card >            
-                        <a href='https://ericd12.github.io/'>
+            <Row >
+                <Col md={6}>
+                    <Card>
                         <Card.Img variant="top" src={patatap} />
-                        </a>
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Patatap App</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                                Animation and sound kit that with the touch of a finger creates melodies charged with moving shapes.
                             </Card.Text>
-                            <ButtonCode>Code</ButtonCode>
-                            <ButtonApp>App</ButtonApp>
+                            <TechInfo>
+                                HTML | CSS | JavaScript | Paper.js | Howler.js
+                            </TechInfo>
+                            <a target ="_blank" rel='noopener noreferrer'href='https://ericd12.github.io/Patatap-App/'>
+                                <ButtonApp>App</ButtonApp>
+                            </a>
+                            <a target ="_blank" rel='noopener noreferrer'href='https://github.com/ericd12/Patatap-App'>
+                                <ButtonCode>Code</ButtonCode>
+                            </a>                    
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col md={6}>
+                    <Card >            
+                        <Card.Img variant="top" src={blog} />
+                        <Card.Body>
+                            <Card.Title>Quarantine Blog</Card.Title>
+                            <Card.Text>
+                                A Blog using Semantic UI with CRUD functionality of places I'd rather be during the current situation.
+                            </Card.Text>
+                            <TechInfo> 
+                                HTML | CSS | JavaScript | SemanticUI 
+                            </TechInfo>                     
+                            <a target ="_blank" rel='noopener noreferrer'href='https://github.com/ericd12/My-Blog-App'>
+                                <ButtonCode>Code</ButtonCode>
+                            </a>         
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            {/* <Row >
                 <Col lg={4} md={6}>
                     <Card>
                         <Card.Img variant="top" src="https://www.irdes.fr/imgs2017/images/about-imgs.jpg" />
