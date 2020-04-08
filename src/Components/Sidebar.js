@@ -24,18 +24,16 @@ class SideContainer extends Component{
                 
     render(){
         return(
-            // <Styles>
-                <Sidebar>
-                    <Techh2>Tech Skills</Techh2>
-                    <div>
-                        <table id='tech'>
-                            <tbody>
-                                {this.renderTechData()}
-                            </tbody>
-                        </table>
-                    </div>
-                </Sidebar>
-            // </Styles>        
+            <Sidebar>
+                <Techh2>Tech Skills</Techh2>
+                <div>
+                    <table id='tech'>
+                        <tbody>
+                            {this.renderTechData()}
+                        </tbody>
+                    </table>
+                </div>
+            </Sidebar>
         );
     }    
 }
